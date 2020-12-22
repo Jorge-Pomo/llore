@@ -1,0 +1,76 @@
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body{
+    background-color: bisque;
+    margin: 0;
+    margin-bottom: 40px;
+    
+    /*Per a fer que es puguen vorer diferents img depenguent de el n img*/
+    background-image: url("");
+    background-attachment: fixed;
+}
+
+/*Menu*/
+nav{
+    padding-left: 100px;
+    padding-top: 50px;
+    
+    width: 200px;
+    height: 110px;
+    
+    
+    /*FlexBox*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;   
+}
+
+.menu
+    border: solid 2px;
+    border-color: white;
+    
+    width: 150px;
+    height: 30px;
+    
+    background-color: darkgreen;
+    color: white;
+    
+    /*FlexBox*/
+    display: flex;
+    align-content: center;
+    align-items: center;    
+}
+
+p{
+    text-align: end;
+    width: 100%;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+div:hover{
+    background-color: white;
+    color: darkgreen;
+}
+
+/*Peu de pagina*/
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    
+    font-weight: bold;
+    font-size: 25px;
+    
+    color: white;
+    background-color: darkgreen;
+    
+    /*FlexBox*/
+    display: flex;
+    align-items: center;
+}
